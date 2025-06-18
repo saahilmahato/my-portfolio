@@ -10,7 +10,7 @@
 
 <nav class="fixed top-0 z-50 w-full bg-white/30 backdrop-blur-md">
 	<ul class="flex justify-center space-x-8 py-4">
-		{#each sections as section}
+		{#each sections as section (section.id)}
 			<li>
 				<a href="#{section.id}" class="font-medium hover:text-green-700">
 					{section.title}

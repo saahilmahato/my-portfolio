@@ -1,5 +1,5 @@
 <script>
-    let { section, label } = $props();
+	let { section, label } = $props();
 </script>
 
 <a
