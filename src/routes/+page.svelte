@@ -2,6 +2,8 @@
 	import About from '$lib/sections/About.svelte';
 	import Home from '$lib/sections/Home.svelte';
 	import NavBar from '$lib/sections/NavBar.svelte';
+	import Projects from '$lib/sections/Projects.svelte';
+	import Publications from '$lib/sections/Publications.svelte';
 </script>
 
 <div
@@ -14,5 +16,7 @@
 	<main>
 		<Home />
 		<About />
+		<Projects />
+		<Publications />
 	</main>
 </div>
