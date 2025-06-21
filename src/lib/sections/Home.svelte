@@ -7,7 +7,7 @@
 	import Section from '$lib/components/Section.svelte';
 	import Subheadline from '$lib/components/Subheadline.svelte';
 
-	const profileImage = '/your/profile.png';
+	const profileImage = 'src/lib/img/profile.jpeg';
 	const headlineText = "I'm Saahil Mahato. I sudo the impossible";
 	const subHeadlineText =
 		"Building tomorrow's technology with today's coffee and yesterday's sleep schedule.";

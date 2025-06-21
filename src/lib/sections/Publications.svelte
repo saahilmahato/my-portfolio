@@ -3,6 +3,9 @@
 	import Headline from '$lib/components/Headline.svelte';
 	import Subheadline from '$lib/components/Subheadline.svelte';
 	import CardView from '$lib/components/CardView.svelte';
+	import CallToAction from '$lib/components/CallToAction.svelte';
+	import ScrollPrompt from '$lib/components/ScrollPrompt.svelte';
+	import Card from '$lib/components/Card.svelte';
 
 	const headlineText = 'Publications';
 	const subHeadlineText =
@@ -17,10 +20,21 @@
 			label: 'Read Paper'
 		}
 	];
+
+	const nextSection = 'experience';
+	const nextSectionlabel = 'My Experience';
+
+	const scrollText = 'See my experience';
 </script>
 
 <Section id="publications">
 	<Headline text={headlineText} />
 	<Subheadline text={subHeadlineText} />
-	<CardView items={publications} />
+	<CardView>
+		{#each publications as item (item.title)}
+			<Card title={item.title} description={item.description} link={item.link} label={item.label} />
+		{/each}
+	</CardView>
+	<CallToAction section={nextSection} label={nextSectionlabel} />
+	<ScrollPrompt text={scrollText} />
 </Section>

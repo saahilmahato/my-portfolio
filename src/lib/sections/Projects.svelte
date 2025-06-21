@@ -5,6 +5,7 @@
 	import CallToAction from '$lib/components/CallToAction.svelte';
 	import ScrollPrompt from '$lib/components/ScrollPrompt.svelte';
 	import CardView from '$lib/components/CardView.svelte';
+	import Card from '$lib/components/Card.svelte';
 
 	const headlineText = 'Projects';
 	const subHeadlineText =
@@ -29,7 +30,11 @@
 <Section id="projects">
 	<Headline text={headlineText} />
 	<Subheadline text={subHeadlineText} />
-	<CardView items={projects} />
+	<CardView>
+		{#each projects as item (item.title)}
+			<Card title={item.title} description={item.description} link={item.link} label={item.label} />
+		{/each}
+	</CardView>
 	<CallToAction section={nextSection} label={nextSectionlabel} />
 	<ScrollPrompt text={scrollText} />
 </Section>

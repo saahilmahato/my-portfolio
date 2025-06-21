@@ -4,6 +4,7 @@
 		{ id: 'about', title: 'About' },
 		{ id: 'projects', title: 'Projects' },
 		{ id: 'publications', title: 'Publications' },
+		{ id: 'experience', title: 'Experience' },
 		{ id: 'contact', title: 'Contact' }
 	];
 </script>

@@ -1,5 +1,6 @@
 <script>
 	import About from '$lib/sections/About.svelte';
+	import Experience from '$lib/sections/Experience.svelte';
 	import Home from '$lib/sections/Home.svelte';
 	import NavBar from '$lib/sections/NavBar.svelte';
 	import Projects from '$lib/sections/Projects.svelte';
@@ -18,5 +19,6 @@
 		<About />
 		<Projects />
 		<Publications />
+		<Experience />
 	</main>
 </div>
