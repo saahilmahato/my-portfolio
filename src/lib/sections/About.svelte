@@ -25,7 +25,7 @@
 	const nextSection = 'projects';
 	const nextSectionlabel = 'Built This 💪';
 
-	const scrollText = 'Built with caffeine, cursed bugs, and vibes';
+	const scrollText = 'Built with caffeine, cursed bugs, and vibes ↓';
 </script>
 
 <Section id="about">

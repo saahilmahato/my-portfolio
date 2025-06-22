@@ -24,17 +24,19 @@
 	const nextSection = 'publications';
 	const nextSectionlabel = 'The Research Files';
 
-	const scrollText = 'Wanna read what kept me up at 3am?';
+	const scrollText = 'Wanna read what kept me up at 3am? ↓';
 </script>
 
 <Section id="projects">
 	<Headline text={headlineText} />
 	<Subheadline text={subHeadlineText} />
+
 	<CardView>
 		{#each projects as item (item.title)}
 			<Card title={item.title} description={item.description} link={item.link} label={item.label} />
 		{/each}
 	</CardView>
+
 	<CallToAction section={nextSection} label={nextSectionlabel} />
 	<ScrollPrompt text={scrollText} />
 </Section>

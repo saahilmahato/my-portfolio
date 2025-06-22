@@ -30,12 +30,13 @@
 	const nextSection = 'education';
 	const nextSectionlabel = 'Academic Lore';
 
-	const scrollText = 'Scroll for academic trauma (and triumph)';
+	const scrollText = 'Scroll for academic trauma (and triumph) ↓';
 </script>
 
 <Section id="experience">
 	<Headline text={headlineText} />
 	<Subheadline text={subHeadlineText} />
+
 	<CardView>
 		{#each experiences as job (job.company)}
 			<InfoCard
@@ -46,6 +47,7 @@
 			/>
 		{/each}
 	</CardView>
+
 	<CallToAction section={nextSection} label={nextSectionlabel} />
 	<ScrollPrompt text={scrollText} />
 </Section>

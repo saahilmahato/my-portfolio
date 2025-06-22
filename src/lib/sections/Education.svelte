@@ -4,6 +4,8 @@
 	import InfoCard from '$lib/components/InfoCard.svelte';
 	import CardView from '$lib/components/CardView.svelte';
 	import Subheadline from '$lib/components/Subheadline.svelte';
+	import CallToAction from '$lib/components/CallToAction.svelte';
+	import ScrollPrompt from '$lib/components/ScrollPrompt.svelte';
 
 	const headlineText = 'Education';
 	const SubheadlineText = 'Degrees acquired. Sanity mostly intact 🎓';
@@ -24,6 +26,11 @@
 				'Got the fundamentals down — algorithms, OS, networks, databases, and a lot of caffeine-fueled late nights. Classic CS core with bonus chaos.'
 		}
 	];
+
+	const nextSection = 'contact';
+	const nextSectionlabel = 'Send a Message';
+
+	const scrollText = 'Have questions? Or compliments? I accept both. ↓';
 </script>
 
 <Section id="education">
@@ -40,4 +47,7 @@
 			/>
 		{/each}
 	</CardView>
+	
+	<CallToAction section={nextSection} label={nextSectionlabel} />
+	<ScrollPrompt text={scrollText} />
 </Section>

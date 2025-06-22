@@ -24,17 +24,19 @@
 	const nextSection = 'experience';
 	const nextSectionlabel = 'Experience Unlocked';
 
-	const scrollText = 'Spoiler: I didn’t just vibe, I shipped.';
+	const scrollText = "Spoiler: I didn't just vibe, I shipped. ↓";
 </script>
 
 <Section id="publications">
 	<Headline text={headlineText} />
 	<Subheadline text={subHeadlineText} />
+
 	<CardView>
 		{#each publications as item (item.title)}
 			<Card title={item.title} description={item.description} link={item.link} label={item.label} />
 		{/each}
 	</CardView>
+
 	<CallToAction section={nextSection} label={nextSectionlabel} />
 	<ScrollPrompt text={scrollText} />
 </Section>

@@ -21,7 +21,6 @@
 >
 	<div class="mx-auto max-w-screen-xl px-4">
 		<div class="relative flex h-16 items-center justify-between">
-			<!-- Desktop Nav -->
 			<ul class="absolute left-1/2 hidden -translate-x-1/2 space-x-6 md:flex">
 				{#each sections as section (section.id)}
 					<li>
@@ -35,7 +34,6 @@
 				{/each}
 			</ul>
 
-			<!-- Hamburger (Mobile) -->
 			<div class="ml-auto md:hidden">
 				<button on:click={toggleMenu} aria-label="Toggle Menu">
 					<svg class="h-6 w-6 text-green-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -50,7 +48,6 @@
 			</div>
 		</div>
 
-		<!-- Mobile Dropdown -->
 		{#if menuOpen}
 			<ul class="flex flex-col space-y-3 py-4 md:hidden">
 				{#each sections as section (section.id)}

@@ -17,7 +17,7 @@
 	const nextSection = 'about';
 	const nextSectionlabel = 'Meet Me';
 
-	const scrollText = "Wanna know who's behind the code?";
+	const scrollText = "Wanna know who's behind the code? ↓";
 </script>
 
 <Section id="home">
