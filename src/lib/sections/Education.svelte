@@ -47,7 +47,7 @@
 			/>
 		{/each}
 	</CardView>
-	
+
 	<CallToAction section={nextSection} label={nextSectionlabel} />
 	<ScrollPrompt text={scrollText} />
 </Section>
