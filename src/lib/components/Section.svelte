@@ -1,4 +1,3 @@
-<!-- components/home/Section.svelte -->
 <script>
 	let { id, children } = $props();
 </script>
