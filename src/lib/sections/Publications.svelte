@@ -22,9 +22,9 @@
 	];
 
 	const nextSection = 'experience';
-	const nextSectionlabel = 'My Experience';
+	const nextSectionlabel = 'Experience Unlocked';
 
-	const scrollText = 'See my experience';
+	const scrollText = 'Spoiler: I didn’t just vibe, I shipped.';
 </script>
 
 <Section id="publications">

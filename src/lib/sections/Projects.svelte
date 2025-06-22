@@ -22,9 +22,9 @@
 	];
 
 	const nextSection = 'publications';
-	const nextSectionlabel = 'Publications';
+	const nextSectionlabel = 'The Research Files';
 
-	const scrollText = 'Read my papers';
+	const scrollText = 'Wanna read what kept me up at 3am?';
 </script>
 
 <Section id="projects">

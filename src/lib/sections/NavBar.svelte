@@ -7,6 +7,7 @@
 		{ id: 'projects', title: 'Projects' },
 		{ id: 'publications', title: 'Publications' },
 		{ id: 'experience', title: 'Experience' },
+		{ id: 'education', title: 'Education' },
 		{ id: 'contact', title: 'Contact' }
 	];
 

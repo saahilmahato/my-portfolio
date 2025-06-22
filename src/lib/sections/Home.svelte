@@ -15,9 +15,9 @@
 	const tagLines = ['🧠 Reality Compiler', '🔍 Bug Archaeologist', '🦆 Rubber Duck Consultant'];
 
 	const nextSection = 'about';
-	const nextSectionlabel = 'Dive In';
+	const nextSectionlabel = 'Meet Me';
 
-	const scrollText = 'Scroll to Discover';
+	const scrollText = "Wanna know who's behind the code?";
 </script>
 
 <Section id="home">

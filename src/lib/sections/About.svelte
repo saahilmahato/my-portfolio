@@ -23,9 +23,9 @@
 	];
 
 	const nextSection = 'projects';
-	const nextSectionlabel = 'See My Work';
+	const nextSectionlabel = 'Built This 💪';
 
-	const scrollText = 'Explore my Projects';
+	const scrollText = 'Built with caffeine, cursed bugs, and vibes';
 </script>
 
 <Section id="about">
