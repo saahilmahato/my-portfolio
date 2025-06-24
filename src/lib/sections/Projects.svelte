@@ -21,8 +21,8 @@
 			duration: 'Aug 2024 - Feb 2025',
 			features: ['Realtime traffic simulation', 'Adaptive traffic lights', 'Recordable Statistics'],
 			tags: ['Simulation', 'AI'],
-			link: 'https://github.com/codesaahil/OptiTraffic',
-			github: 'https://github.com/codesaahil/OptiTraffic',
+			link: 'https://github.com/saahilmahato/OptiTraffic',
+			github: 'https://github.com/saahilmahato/OptiTraffic',
 			label: 'Research Simulation'
 		}
 	];
