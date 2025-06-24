@@ -6,9 +6,7 @@
 	};
 </script>
 
-<div
-	class="via-emerald-25 mx-auto mb-8 max-w-4xl rounded-2xl bg-gradient-to-br from-green-50 to-teal-50 p-6"
->
+<div class="mx-auto mb-8 max-w-4xl">
 	<div class="relative">
 		<div
 			class="absolute top-0 bottom-0 left-8 w-0.5 bg-gradient-to-b from-emerald-400 via-green-500 to-teal-400 shadow-sm"
@@ -48,12 +46,24 @@
 							</div>
 
 							<div class="mb-3 flex items-center gap-2">
-								<span class="text-lg">🏢</span>
+								<svg class="h-5 w-5 text-teal-600" fill="currentColor" viewBox="0 0 20 20">
+									<path
+										fill-rule="evenodd"
+										d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-6a1 1 0 00-1-1H9a1 1 0 00-1 1v6a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z"
+										clip-rule="evenodd"
+									/>
+								</svg>
 								<span class="text-lg font-medium text-teal-700">{experience.company}</span>
 							</div>
 
 							<div class="mb-4 flex items-center gap-2">
-								<span class="text-lg">📅</span>
+								<svg class="h-5 w-5 text-emerald-600" fill="currentColor" viewBox="0 0 20 20">
+									<path
+										fill-rule="evenodd"
+										d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+										clip-rule="evenodd"
+									/>
+								</svg>
 								<span class="text-sm font-medium text-emerald-700">{experience.duration}</span>
 							</div>
 
