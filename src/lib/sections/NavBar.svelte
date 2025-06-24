@@ -1,7 +1,9 @@
-<script>
-	let menuOpen = false;
+<script lang="ts">
+	import type { MouseEventHandler } from 'svelte/elements';
 
-	const sections = [
+	let menuOpen: boolean = false;
+
+	const sections: Array<{ id: string; title: string }> = [
 		{ id: 'home', title: 'Home' },
 		{ id: 'about', title: 'About' },
 		{ id: 'projects', title: 'Projects' },
@@ -11,7 +13,7 @@
 		{ id: 'contact', title: 'Contact' }
 	];
 
-	const toggleMenu = () => {
+	const toggleMenu: MouseEventHandler<HTMLButtonElement> = () => {
 		menuOpen = !menuOpen;
 	};
 </script>
@@ -35,7 +37,7 @@
 			</ul>
 
 			<div class="ml-auto md:hidden">
-				<button on:click={toggleMenu} aria-label="Toggle Menu">
+				<button onclick={toggleMenu} aria-label="Toggle Menu">
 					<svg class="h-6 w-6 text-green-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path
 							stroke-linecap="round"
@@ -55,7 +57,7 @@
 						<a
 							href="#{section.id}"
 							class="block text-center text-sm font-semibold text-green-900 transition hover:text-emerald-700"
-							on:click={() => (menuOpen = false)}
+							onclick={() => (menuOpen = false)}
 						>
 							{section.title}
 						</a>

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Section from '$lib/components/Section.svelte';
 	import Headline from '$lib/components/Headline.svelte';
 	import Subheadline from '$lib/components/Subheadline.svelte';
@@ -6,10 +6,10 @@
 	import ScrollPrompt from '$lib/components/ScrollPrompt.svelte';
 	import EducationView from '$lib/components/EducationView.svelte';
 
-	const headlineText = 'Education';
-	const SubheadlineText = 'Degrees acquired. Sanity mostly intact 🎓';
+	const headlineText: string = 'Education';
+	const SubheadlineText: string = 'Degrees acquired. Sanity mostly intact 🎓';
 
-	const education = [
+	const education: Array<object> = [
 		{
 			id: 1,
 			degree: 'M.S in Advanced Computer Science',
@@ -28,10 +28,10 @@
 		}
 	];
 
-	const nextSection = 'contact';
-	const nextSectionlabel = 'Send a Message';
+	const nextSection: string = 'contact';
+	const nextSectionlabel: string = 'Send a Message';
 
-	const scrollText = 'Have questions? Or compliments? I accept both. ↓';
+	const scrollText: string = 'Have questions? Or compliments? I accept both. ↓';
 </script>
 
 <Section id="education">

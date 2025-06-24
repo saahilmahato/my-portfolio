@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Section from '$lib/components/Section.svelte';
 	import Headline from '$lib/components/Headline.svelte';
 	import Subheadline from '$lib/components/Subheadline.svelte';
@@ -6,11 +6,11 @@
 	import ScrollPrompt from '$lib/components/ScrollPrompt.svelte';
 	import PublicationView from '$lib/components/PublicationView.svelte';
 
-	const headlineText = 'Publications';
-	const subHeadlineText =
+	const headlineText: string = 'Publications';
+	const subHeadlineText: string =
 		"These are my published papers. Read 'em, cite 'em, challenge 'em. Academia needs a little disruption. 🧠⚡";
 
-	const publications = [
+	const publications: Array<object> = [
 		{
 			id: 1,
 			title: 'Smart Traffic Signals: Comparing MARL and Fixed-Time Strategies',
@@ -26,10 +26,10 @@
 		}
 	];
 
-	const nextSection = 'experience';
-	const nextSectionlabel = 'Experience Unlocked';
+	const nextSection: string = 'experience';
+	const nextSectionlabel: string = 'Experience Unlocked';
 
-	const scrollText = "Spoiler: I didn't just vibe, I shipped. ↓";
+	const scrollText: string = "Spoiler: I didn't just vibe, I shipped. ↓";
 </script>
 
 <Section id="publications">

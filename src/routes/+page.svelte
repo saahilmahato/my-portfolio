@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import About from '$lib/sections/About.svelte';
 	import Contact from '$lib/sections/Contact.svelte';
 	import Education from '$lib/sections/Education.svelte';

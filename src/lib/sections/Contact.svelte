@@ -3,11 +3,11 @@
 	import Headline from '$lib/components/Headline.svelte';
 	import Subheadline from '$lib/components/Subheadline.svelte';
 
-	let status = '';
-	let submitting = false;
+	let status: string = '';
+	let submitting: boolean = false;
 
-	const headlineText = 'Get in Touch';
-	const subHeadlineText =
+	const headlineText: string = 'Get in Touch';
+	const subHeadlineText: string =
 		'Have a question, collaboration idea, or just wanna say hi? Hit me up below.';
 
 	async function handleSubmit(event: Event) {
@@ -15,11 +15,11 @@
 		status = '';
 		submitting = true;
 
-		const form = event.target as HTMLFormElement;
-		const data = new FormData(form);
+		const form: HTMLFormElement = event.target as HTMLFormElement;
+		const data: FormData = new FormData(form);
 
 		try {
-			const response = await fetch(form.action, {
+			const response: Response = await fetch(form.action, {
 				method: form.method,
 				body: data,
 				headers: {

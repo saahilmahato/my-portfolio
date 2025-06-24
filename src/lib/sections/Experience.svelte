@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Section from '$lib/components/Section.svelte';
 	import Headline from '$lib/components/Headline.svelte';
 	import Subheadline from '$lib/components/Subheadline.svelte';
@@ -6,10 +6,11 @@
 	import ScrollPrompt from '$lib/components/ScrollPrompt.svelte';
 	import ExperienceView from '$lib/components/ExperienceView.svelte';
 
-	const headlineText = 'Experience';
-	const subHeadlineText = "Frontend? Backend? Infra? If it compiles (eventually), I'm in. 🦾";
+	const headlineText: string = 'Experience';
+	const subHeadlineText: string =
+		"Frontend? Backend? Infra? If it compiles (eventually), I'm in. 🦾";
 
-	const experiences = [
+	const experiences: Array<object> = [
 		{
 			id: 1,
 			role: 'Software Engineer',
@@ -43,10 +44,10 @@
 		}
 	];
 
-	const nextSection = 'education';
-	const nextSectionlabel = 'Academic Lore';
+	const nextSection: string = 'education';
+	const nextSectionlabel: string = 'Academic Lore';
 
-	const scrollText = 'Scroll for academic trauma (and triumph) ↓';
+	const scrollText: string = 'Scroll for academic trauma (and triumph) ↓';
 </script>
 
 <Section id="experience">

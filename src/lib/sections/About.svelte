@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Section from '$lib/components/Section.svelte';
 	import Headline from '$lib/components/Headline.svelte';
 	import ScrollPrompt from '$lib/components/ScrollPrompt.svelte';
@@ -6,9 +6,9 @@
 	import ParagraphBlock from '$lib/components/ParagraphBlock.svelte';
 	import ChipsBar from '$lib/components/ChipsBar.svelte';
 
-	const headlineText = 'More than Code';
+	const headlineText: string = 'More than Code';
 
-	const aboutText = `
+	const aboutText: string = `
 		I'm a software engineer who enjoys turning caffeine and chaos into clean code. 
 		Whether it's a scrappy weekend project or a long-term moonshot, I focus on building tools and experiences 
 		that actually matter.
@@ -16,16 +16,16 @@
 		requires more than just syntax. I thrive in the space between creative exploration and structured execution.
 	`;
 
-	const highlights = [
+	const highlights: Array<object> = [
 		{ id: 1, text: '🧠 Always learning, never settling' },
 		{ id: 2, text: '🚀 From quick hacks to long-haul visions' },
 		{ id: 3, text: '🌍 Bridging human needs with machine logic' }
 	];
 
-	const nextSection = 'projects';
-	const nextSectionlabel = 'Built This 💪';
+	const nextSection: string = 'projects';
+	const nextSectionlabel: string = 'Built This 💪';
 
-	const scrollText = 'Built with caffeine, cursed bugs, and vibes ↓';
+	const scrollText: string = 'Built with caffeine, cursed bugs, and vibes ↓';
 </script>
 
 <Section id="about">

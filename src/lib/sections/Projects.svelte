@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Section from '$lib/components/Section.svelte';
 	import Headline from '$lib/components/Headline.svelte';
 	import Subheadline from '$lib/components/Subheadline.svelte';
@@ -6,11 +6,11 @@
 	import ScrollPrompt from '$lib/components/ScrollPrompt.svelte';
 	import ProjectView from '$lib/components/ProjectView.svelte';
 
-	const headlineText = 'Projects';
-	const subHeadlineText =
+	const headlineText: string = 'Projects';
+	const subHeadlineText: string =
 		'Behold, my weird and wonderful projects. Roast them, remix them, fork them into another dimension. I welcome all feedback and unhinged contributions 🛠️✨';
 
-	const projects = [
+	const projects: Array<object> = [
 		{
 			id: 1,
 			title: 'OptiTraffic',
@@ -27,10 +27,10 @@
 		}
 	];
 
-	const nextSection = 'publications';
-	const nextSectionlabel = 'The Research Files';
+	const nextSection: string = 'publications';
+	const nextSectionlabel: string = 'The Research Files';
 
-	const scrollText = 'Wanna read what kept me up at 3am? ↓';
+	const scrollText: string = 'Wanna read what kept me up at 3am? ↓';
 </script>
 
 <Section id="projects">
