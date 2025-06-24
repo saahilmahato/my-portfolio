@@ -4,7 +4,7 @@
 	import Subheadline from '$lib/components/Subheadline.svelte';
 	import CallToAction from '$lib/components/CallToAction.svelte';
 	import ScrollPrompt from '$lib/components/ScrollPrompt.svelte';
-	import ExperienceTimeline from '$lib/components/ExperienceTimeline.svelte';
+	import ExperienceView from '$lib/components/ExperienceView.svelte';
 
 	const headlineText = 'Experience';
 	const subHeadlineText = "Frontend? Backend? Infra? If it compiles (eventually), I'm in. 🦾";
@@ -52,7 +52,7 @@
 <Section id="experience">
 	<Headline text={headlineText} />
 	<Subheadline text={subHeadlineText} />
-	<ExperienceTimeline {experiences} />
+	<ExperienceView {experiences} />
 	<CallToAction section={nextSection} label={nextSectionlabel} />
 	<ScrollPrompt text={scrollText} />
 </Section>

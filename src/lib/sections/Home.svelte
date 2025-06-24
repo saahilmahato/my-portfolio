@@ -1,6 +1,6 @@
 <script>
 	import CallToAction from '$lib/components/CallToAction.svelte';
-	import ChipBar from '$lib/components/ChipBar.svelte';
+	import ChipsBar from '$lib/components/ChipsBar.svelte';
 	import Headline from '$lib/components/Headline.svelte';
 	import ProfilePicture from '$lib/components/ProfilePicture.svelte';
 	import ScrollPrompt from '$lib/components/ScrollPrompt.svelte';
@@ -12,7 +12,11 @@
 	const subHeadlineText =
 		"Building tomorrow's technology with today's coffee and yesterday's sleep schedule.";
 
-	const tagLines = ['🧠 Reality Compiler', '🔍 Bug Archaeologist', '🦆 Rubber Duck Consultant'];
+	const links = [
+		{ id: 1, text: '🐙 GitHub', href: 'https://github.com/codesaahil' },
+		{ id: 2, text: '💼 LinkedIn', href: 'https://www.linkedin.com/in/saahil-mahato-6810ba171/' },
+		{ id: 3, text: '🐦 X (Twitter)', href: 'https://x.com/codesaahil' }
+	];
 
 	const nextSection = 'about';
 	const nextSectionlabel = 'Meet Me';
@@ -24,7 +28,7 @@
 	<ProfilePicture src={profileImage} />
 	<Headline text={headlineText} />
 	<Subheadline text={subHeadlineText} />
-	<ChipBar chips={tagLines} />
+	<ChipsBar chips={links} />
 	<CallToAction section={nextSection} label={nextSectionlabel} />
 	<ScrollPrompt text={scrollText} />
 </Section>

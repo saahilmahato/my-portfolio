@@ -1,10 +1,10 @@
 <script>
 	import Section from '$lib/components/Section.svelte';
 	import Headline from '$lib/components/Headline.svelte';
-	import ChipBar from '$lib/components/ChipBar.svelte';
 	import ScrollPrompt from '$lib/components/ScrollPrompt.svelte';
 	import CallToAction from '$lib/components/CallToAction.svelte';
 	import ParagraphBlock from '$lib/components/ParagraphBlock.svelte';
+	import ChipsBar from '$lib/components/ChipsBar.svelte';
 
 	const headlineText = 'More than Code';
 
@@ -17,9 +17,9 @@
 	`;
 
 	const highlights = [
-		'🧠 Always learning, never settling',
-		'🚀 From quick hacks to long-haul visions',
-		'🌍 Bridging human needs with machine logic'
+		{ id: 1, text: '🧠 Always learning, never settling' },
+		{ id: 2, text: '🚀 From quick hacks to long-haul visions' },
+		{ id: 3, text: '🌍 Bridging human needs with machine logic' }
 	];
 
 	const nextSection = 'projects';
@@ -31,7 +31,7 @@
 <Section id="about">
 	<Headline text={headlineText} />
 	<ParagraphBlock text={aboutText} />
-	<ChipBar chips={highlights} />
+	<ChipsBar chips={highlights} />
 	<CallToAction section={nextSection} label={nextSectionlabel} />
 	<ScrollPrompt text={scrollText} />
 </Section>

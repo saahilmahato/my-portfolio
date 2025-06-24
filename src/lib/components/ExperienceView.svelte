@@ -6,7 +6,7 @@
 	};
 </script>
 
-<div class="mx-auto mb-8 max-w-4xl">
+<div class="mx-auto mb-10 max-w-4xl space-y-6">
 	<div class="relative">
 		<div
 			class="absolute top-0 bottom-0 left-8 w-0.5 bg-gradient-to-b from-emerald-400 via-green-500 to-teal-400 shadow-sm"

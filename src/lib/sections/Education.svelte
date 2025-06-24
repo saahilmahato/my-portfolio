@@ -4,7 +4,7 @@
 	import Subheadline from '$lib/components/Subheadline.svelte';
 	import CallToAction from '$lib/components/CallToAction.svelte';
 	import ScrollPrompt from '$lib/components/ScrollPrompt.svelte';
-	import EducationTree from '$lib/components/EducationTree.svelte';
+	import EducationView from '$lib/components/EducationView.svelte';
 
 	const headlineText = 'Education';
 	const SubheadlineText = 'Degrees acquired. Sanity mostly intact 🎓';
@@ -38,7 +38,7 @@
 	<Headline text={headlineText} />
 	<Subheadline text={SubheadlineText} />
 
-	<EducationTree {education} />
+	<EducationView {education} />
 
 	<CallToAction section={nextSection} label={nextSectionlabel} />
 	<ScrollPrompt text={scrollText} />

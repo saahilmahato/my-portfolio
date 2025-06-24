@@ -12,13 +12,14 @@
 
 	const publications = [
 		{
+			id: 1,
 			title:
 				'Multi-agent Reinforcement Learning vs. Fixed-Time Control for Traffic Signal Optimization: A Simulation Study',
 			authors: 'Saahil Mahato',
 			year: '2025',
 			description: 'A statistical analysis of how MARL performs against Fixed time Traffic lights.',
 			tags: ['AI', 'ML', 'MARL', 'Traffic lights', 'Traffic Optimization'],
-			label: 'Article',
+			label: 'Preprint',
 			link: 'https://arxiv.org/pdf/2505.14544',
 			arxiv: '2505.14544',
 			doi: '10.48550/arXiv.2505.14544',
