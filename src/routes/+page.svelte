@@ -9,6 +9,23 @@
 	import Publications from '$lib/sections/Publications.svelte';
 </script>
 
+<svelte:head>
+	<title>Saahil Mahato</title>
+	<meta
+		name="description"
+		content="Portfolio of Saahil Mahato - Software Engineer, AI Engineer and Researcher"
+	/>
+	<meta name="keywords" content="Saahil Mahato, AI, Software, Portfolio" />
+	<meta property="og:title" content="Saahil Mahato - Portfolio" />
+	<meta
+		property="og:description"
+		content="Explore my projects, research, and engineering journey."
+	/>
+	<meta property="og:url" content="https://saahilmahato.pages.dev/" />
+	<meta property="og:type" content="website" />
+	<meta name="robots" content="index, follow" />
+</svelte:head>
+
 <div
 	class="min-h-screen bg-gradient-to-b from-green-100 via-green-200 to-green-50 font-sans text-gray-900"
 >
