@@ -11,6 +11,7 @@
 
 <svelte:head>
 	<title>Saahil Mahato</title>
+	<meta name="google-site-verification" content="Duk3dmiqcAxBQA7idWyyeXIsJZVw7Y7iaRpRrfhTpRw" />
 	<meta
 		name="description"
 		content="Portfolio of Saahil Mahato - Software Engineer, AI Engineer and Researcher"
