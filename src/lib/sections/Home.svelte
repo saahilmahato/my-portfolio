@@ -15,7 +15,7 @@
 	const links: Array<object> = [
 		{ id: 1, text: '🐙 GitHub', href: 'https://github.com/saahilmahato' },
 		{ id: 2, text: '💼 LinkedIn', href: 'https://www.linkedin.com/in/saahil-mahato-6810ba171/' },
-		{ id: 3, text: '🐦 X (Twitter)', href: 'https://x.com/codesaahil' }
+		{ id: 3, text: '🐦 X (Twitter)', href: 'https://x.com/thesaahilmahato' }
 	];
 
 	const nextSection: string = 'about';
