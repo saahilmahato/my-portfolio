@@ -24,6 +24,20 @@
 			link: 'https://github.com/saahilmahato/OptiTraffic',
 			github: 'https://github.com/saahilmahato/OptiTraffic',
 			label: 'Research Simulation'
+		},
+		{
+			id: 2,
+			title: 'ATHENA',
+			description:
+				'ATHENA is a library designed to facilitate the creation of intelligent, dynamic NPCs',
+			status: 'In Progress',
+			techStack: 'Python, google-genai',
+			duration: 'Mar 2025 - Presnt',
+			features: ['Realistic dialogues', 'Schema responses for game context', 'Varying responses according to personality'],
+			tags: ['Game', 'AI'],
+			link: 'https://github.com/saahilmahato/ATHENA',
+			github: 'https://github.com/saahilmahato/ATHENA',
+			label: 'Library'
 		}
 	];
 

@@ -2,7 +2,7 @@
 	let { projects } = $props();
 </script>
 
-<div class="mx-auto mb-10 flex w-full max-w-4xl flex-wrap justify-center gap-6 space-y-6 py-8">
+<div class="mx-auto mb-10 flex w-full max-w-4xl flex-wrap justify-center gap-6 py-8">
 	{#each projects as project, index (project.id)}
 		<article
 			class="group relative w-full rounded-2xl border border-green-200/50
