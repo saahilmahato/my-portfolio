@@ -33,7 +33,11 @@
 			status: 'In Progress',
 			techStack: 'Python, google-genai',
 			duration: 'Mar 2025 - Presnt',
-			features: ['Realistic dialogues', 'Schema responses for game context', 'Varying responses according to personality'],
+			features: [
+				'Realistic dialogues',
+				'Schema responses for game context',
+				'Varying responses according to personality'
+			],
 			tags: ['Game', 'AI'],
 			link: 'https://github.com/saahilmahato/ATHENA',
 			github: 'https://github.com/saahilmahato/ATHENA',
