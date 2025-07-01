@@ -21,7 +21,7 @@
 		property="og:description"
 		content="Explore my projects, research, and engineering journey."
 	/>
-	<meta property="og:url" content="https://saahilmahato.pages.dev/" />
+	<meta property="og:url" content="https://saahilmahato.netlify.app/" />
 	<meta property="og:type" content="website" />
 	<meta name="robots" content="index, follow" />
 	<meta name="google-site-verification" content="VUz20qVVW2vUAJzBGnue2XoijmJfqWGmArAuFGp8TYc" />
