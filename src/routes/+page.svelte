@@ -25,6 +25,7 @@
 	<meta property="og:type" content="website" />
 	<meta name="robots" content="index, follow" />
 	<meta name="google-site-verification" content="VUz20qVVW2vUAJzBGnue2XoijmJfqWGmArAuFGp8TYc" />
+	<meta name="google-site-verification" content="0nmcwGOxf2VOy1sfquUnA7vC5rkwLjVheEA-CT-Tffs" />
 </svelte:head>
 
 <div
