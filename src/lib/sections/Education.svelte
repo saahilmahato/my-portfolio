@@ -37,9 +37,7 @@
 <Section id="education">
 	<Headline text={headlineText} />
 	<Subheadline text={SubheadlineText} />
-
 	<EducationView {education} />
-
 	<CallToAction section={nextSection} label={nextSectionlabel} />
 	<ScrollPrompt text={scrollText} />
 </Section>

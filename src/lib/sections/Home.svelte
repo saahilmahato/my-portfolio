@@ -8,7 +8,7 @@
 	import Subheadline from '$lib/components/Subheadline.svelte';
 
 	const profileImage: string = 'profile.png';
-	const headlineText: string = "Saahil Mahato: One Engineer. Infinite Tabs.";
+	const headlineText: string = "Hi! I'm Saahil Mahato";
 	const subHeadlineText: string =
 		"Building tomorrow's technology with today's coffee and yesterday's sleep schedule.";
 
