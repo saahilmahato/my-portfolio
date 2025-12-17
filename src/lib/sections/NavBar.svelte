@@ -5,7 +5,6 @@
 
 	const sections: Array<{ id: string; title: string }> = [
 		{ id: 'home', title: 'Home' },
-		{ id: 'about', title: 'About' },
 		{ id: 'projects', title: 'Projects' },
 		{ id: 'publications', title: 'Publications' },
 		{ id: 'experience', title: 'Experience' },
