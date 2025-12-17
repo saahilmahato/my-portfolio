@@ -5,28 +5,28 @@
 <div class="mx-auto mb-8 max-w-4xl space-y-6 py-8">
 	{#each publications as publication, index (publication.id)}
 		<article
-			class="group relative rounded-2xl border border-green-200/50 bg-gradient-to-br
+			class="group relative rounded-2xl border border-green-200/50 bg-linear-to-br
              from-green-50/80 via-emerald-50/60 to-teal-50/80 p-6 backdrop-blur-sm
              transition-all duration-500 ease-out hover:-translate-y-1
-             hover:border-green-300/60 hover:bg-gradient-to-br hover:from-green-50
+             hover:border-green-300/60 hover:bg-linear-to-br hover:from-green-50
              hover:via-emerald-50 hover:to-teal-50 hover:shadow-xl hover:shadow-green-100/50 md:p-8"
 			style="animation-delay: {index * 100}ms"
 		>
 			<!-- Top accent line -->
 			<div
-				class="absolute top-0 right-0 left-0 h-1 rounded-t-2xl bg-gradient-to-r from-green-400 via-emerald-400
+				class="absolute top-0 right-0 left-0 h-1 rounded-t-2xl bg-linear-to-r from-green-400 via-emerald-400
                   to-teal-400 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 			></div>
 
 			<!-- Publication type badge -->
 			<div class="mb-4 flex items-center gap-3">
 				<span
-					class="inline-flex items-center rounded-full bg-gradient-to-r from-green-500 to-emerald-500 px-3 py-1 text-xs
+					class="inline-flex items-center rounded-full bg-linear-to-r from-green-500 to-emerald-500 px-3 py-1 text-xs
                      font-semibold tracking-wide text-white uppercase shadow-sm"
 				>
 					{publication.label || 'Publication'}
 				</span>
-				<div class="h-px flex-1 bg-gradient-to-r from-green-200 via-green-100 to-transparent"></div>
+				<div class="h-px flex-1 bg-linear-to-r from-green-200 via-green-100 to-transparent"></div>
 				{#if publication.year}
 					<span class="rounded-lg bg-green-100/70 px-2 py-1 text-sm font-medium text-green-700">
 						{publication.year}
@@ -44,7 +44,7 @@
 						target="_blank"
 						rel="noopener noreferrer"
 						class="relative inline-block transition-colors duration-300 after:absolute
-                    after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r
+                    after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-linear-to-r
                     after:from-green-500 after:to-emerald-500 after:transition-all
                     after:duration-300 hover:text-green-600 hover:after:w-full"
 					>
@@ -98,7 +98,7 @@
 						href={publication.link}
 						target="_blank"
 						rel="noopener noreferrer"
-						class="inline-flex transform items-center gap-2 rounded-full bg-gradient-to-r
+						class="inline-flex transform items-center gap-2 rounded-full bg-linear-to-r
                     from-green-500 to-emerald-500 px-4 py-2 text-sm font-semibold
                     text-white shadow-md transition-all duration-200
                     hover:-translate-y-0.5 hover:from-green-600 hover:to-emerald-600 hover:shadow-lg

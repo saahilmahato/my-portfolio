@@ -1,5 +1,4 @@
 <script lang="ts">
-	import About from '$lib/sections/About.svelte';
 	import Contact from '$lib/sections/Contact.svelte';
 	import Education from '$lib/sections/Education.svelte';
 	import Experience from '$lib/sections/Experience.svelte';
@@ -29,7 +28,7 @@
 </svelte:head>
 
 <div
-	class="min-h-screen bg-gradient-to-b from-green-100 via-green-200 to-green-50 font-sans text-gray-900"
+	class="min-h-screen bg-linear-to-b from-green-100 via-green-200 to-green-50 font-sans text-gray-900"
 >
 	<header>
 		<NavBar />
@@ -37,7 +36,6 @@
 
 	<main>
 		<Home />
-		<About />
 		<Projects />
 		<Publications />
 		<Experience />

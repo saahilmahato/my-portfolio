@@ -18,10 +18,10 @@
 		{ id: 3, text: '🐦 X (Twitter)', href: 'https://x.com/saahilxmahato' }
 	];
 
-	const nextSection: string = 'about';
-	const nextSectionlabel: string = 'Meet Me';
+	const nextSection: string = 'projects';
+	const nextSectionlabel: string = 'Built This 💪';
 
-	const scrollText: string = "Wanna know who's behind the code? ↓";
+	const scrollText: string = "Built with caffeine, cursed bugs, and vibes ↓";
 </script>
 
 <Section id="home">

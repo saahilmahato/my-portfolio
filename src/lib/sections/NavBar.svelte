@@ -21,7 +21,7 @@
 <nav
 	class={`fixed top-0 left-0 z-50 w-full ${menuOpen ? 'border-b border-green-300 bg-green-200/60 shadow-sm backdrop-blur-md' : 'bg-transparent'} md:border-b md:border-green-300 md:shadow-sm md:backdrop-blur-md md:transition-all`}
 >
-	<div class="mx-auto max-w-screen-xl px-4">
+	<div class="mx-auto max-w-7xl px-4">
 		<div class="relative flex h-16 items-center justify-between">
 			<ul class="absolute left-1/2 hidden -translate-x-1/2 space-x-6 md:flex">
 				{#each sections as section (section.id)}

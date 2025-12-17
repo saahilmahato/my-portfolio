@@ -49,7 +49,7 @@
 		action="https://formspree.io/f/xovwngdy"
 		method="POST"
 		onsubmit={handleSubmit}
-		class="mt-8 flex min-w-2/3 flex-col gap-5 rounded-2xl border-2 border-green-400 bg-gradient-to-br from-green-100/70 via-green-200/60 to-yellow-100/50 p-8 shadow-[0_4px_15px_rgba(72,187,120,0.35)]"
+		class="mt-8 flex min-w-2/3 flex-col gap-5 rounded-2xl border-2 border-green-400 bg-linear-to-br from-green-100/70 via-green-200/60 to-yellow-100/50 p-8 shadow-[0_4px_15px_rgba(72,187,120,0.35)]"
 	>
 		<input type="hidden" name="_subject" value="New contact message from portfolio site" />
 

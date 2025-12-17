@@ -6,7 +6,7 @@
 	<div class="grid gap-8 md:grid-cols-2">
 		{#each education as edu (edu.id)}
 			<div
-				class="animate-fade-in transform rounded-xl border border-green-200 bg-gradient-to-br from-white p-6 shadow-md transition duration-300 ease-in-out hover:scale-[1.02] hover:border-emerald-300 hover:shadow-xl hover:shadow-emerald-200/50"
+				class="animate-fade-in transform rounded-xl border border-green-200 bg-linear-to-br from-white p-6 shadow-md transition duration-300 ease-in-out hover:scale-[1.02] hover:border-emerald-300 hover:shadow-xl hover:shadow-emerald-200/50"
 			>
 				<div class="mb-3 flex items-center gap-3 text-emerald-800">
 					<span class="animate-bounce-slow text-2xl">🎓</span>
