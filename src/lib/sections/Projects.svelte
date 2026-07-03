@@ -42,6 +42,24 @@
 			link: 'https://github.com/saahilmahato/ATHENA',
 			github: 'https://github.com/saahilmahato/ATHENA',
 			label: 'Library'
+		},
+		{
+			id: 3,
+			title: 'SwiftCache',
+			description:
+				'A Java cache library that uses key-value pairs, with configurable read, write, and eviction policies plus an annotation processor for lightweight integration in any application.',
+			status: 'New',
+			techStack: 'Java',
+			duration: '2026',
+			features: [
+				'Configurable cache policies',
+				'Annotation-based integration',
+				'Flexible key-value storage'
+			],
+			tags: ['Java', 'Library'],
+			link: 'https://github.com/saahilmahato/SwiftCache',
+			github: 'https://github.com/saahilmahato/SwiftCache',
+			label: 'Library'
 		}
 	];
 

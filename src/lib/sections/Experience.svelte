@@ -13,14 +13,22 @@
 	const experiences: Array<object> = [
 		{
 			id: 1,
-			role: 'Software Engineer',
-			company: 'Cedar Gate Technologies',
-			duration: 'Dec 2024 - Present',
+			role: 'Software Development Enginner 2 (SDE-II)',
+			company: 'IQVIA',
+			duration: 'Jan 2026 - Present',
 			description:
-				'Currently upgrading a healthcare analytics platform with modern frameworks and resolving a large volume of security vulnerabilities to improve system integrity and compliance.'
+				'Working on a generative AI feature that lets users query the analytics engine in natural language and receive accurate data, implementing RAG-based retrieval.'
 		},
 		{
 			id: 2,
+			role: 'Software Engineer',
+			company: 'Cedar Gate Technologies',
+			duration: 'Dec 2024 - Jan 2026',
+			description:
+				'Upgraded legacy applications and addressed security issues reported by Veracode, improving maintainability and system integrity.'
+		},
+		{
+			id: 3,
 			role: 'Software Engineer',
 			company: 'Leapfrog Technology',
 			duration: 'Jan 2023 - Oct 2024',
@@ -28,7 +36,7 @@
 				'Contributed to healthcare projects involving complex business logic for prescription processing workflows.'
 		},
 		{
-			id: 3,
+			id: 4,
 			role: 'Associate Software Engineer',
 			company: 'Leapfrog Technology',
 			duration: 'Jan 2022 - Dec 2022',
@@ -36,7 +44,7 @@
 				'Contributed to drug discovery management project by creating custom web components and CRUD backend.'
 		},
 		{
-			id: 4,
+			id: 5,
 			role: 'Software Engineer Intern',
 			company: 'Leapfrog Technology',
 			duration: 'Oct 2021 - Dec 2021',
