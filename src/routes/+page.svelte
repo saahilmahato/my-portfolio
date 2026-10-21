@@ -12,7 +12,7 @@
 	<title>Saahil Mahato</title>
 	<meta
 		name="description"
-		content="Portfolio of Saahil Mahato - Software Engineer, AI Engineer and Researcher"
+		content="Portfolio of Saahil Mahato"
 	/>
 	<meta name="keywords" content="Saahil Mahato, AI, Software, Portfolio" />
 	<meta property="og:title" content="Saahil Mahato - Portfolio" />
